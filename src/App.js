@@ -6,6 +6,7 @@ import Distributor from './pages/distributor';
 import RootInfo from './pages/rootInfo';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css'; 
+import CSVUpload from './pages/csvupload';
 
 const { Header, Footer, Content } = Layout;
 
@@ -21,6 +22,8 @@ function App() {
           <Route exact path ="/login" component={ Login } />
           <Route exact path ="/distributor" component={ Distributor } />
           <Route exact path ="/rootnumber" component={ RootInfo } />
+          <Route exact path ="/csv" component={ CSVUpload } />
+
 
         </Content> 
       <Footer>Footer</Footer>
